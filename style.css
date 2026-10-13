@@ -261,3 +261,11 @@ body.landing .sceneband img{height:clamp(70px,13vh,150px)}
 @media (prefers-color-scheme:dark){.sceneband img{opacity:.55;filter:saturate(.8)}.cond .card::after{opacity:.14}.birdsp,.emb img{opacity:.85}}
 .whatis .ages{align-items:stretch}.whatis .age{justify-self:stretch;width:auto;min-width:0;margin-left:0;font-size:inherit;color:inherit}.whatis .age a{color:var(--acc)}
 @media (max-width:700px){body.landing .birdsp{display:block;height:34px;margin:-4px 0 -8px auto}}
+
+/* mobile video v2 */
+.playov{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:72px;height:72px;border-radius:50%;border:0;background:rgba(35,32,27,.72);color:#fff;font-size:28px;line-height:72px;padding-left:6px;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.25)}
+.playov[hidden]{display:none}
+@media (max-width:700px){body.landing{height:auto;min-height:100svh}main.lmain{flex:none;padding:12px 12px 8px}.lmain .lt,.lmain .intro,.cta,.birdsp{margin-inline:6px}
+.vwrap{flex:none;display:block;margin:4px -4px 0}.vwrap video{width:100%;height:auto;aspect-ratio:9/16;max-height:none;border-radius:14px}
+body.landing .sceneband{margin-top:16px}body.landing .sceneband img{height:clamp(90px,30vw,140px)}}
+@media (max-width:700px){body.landing .lmain .intro,body.landing .cta .btn.ghost,body.landing .cta .lockn{display:none}body.landing .cta{margin-bottom:12px}}
