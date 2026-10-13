@@ -228,3 +228,9 @@ main.others{max-width:1240px}
 .supbox{border:2px solid var(--acc);border-radius:14px;padding:14px 16px;margin:14px 0;font-size:14.5px}
 .card.ai{border:2px dashed var(--permInk)}
 .card.ai .aiflag{display:block;font-size:12px;font-weight:650;color:var(--permInk);background:var(--warm);border-radius:8px;padding:6px 8px;margin-bottom:8px}
+/* v6 fixes */
+.qstart{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin:0 0 20px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.qstart .btn.big{padding:14px 26px;font-size:17px;border-radius:999px}
+.qstart .mute{font-size:13.5px}
+@media (hover:none),(max-width:700px){.kh{display:none}}
+.thead,.stage,.q-text,.th1,h2.q{scroll-margin-top:84px}
