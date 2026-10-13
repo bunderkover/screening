@@ -212,3 +212,19 @@ main.others{max-width:1240px}
 .otab a{color:var(--acc)}
 @media (max-width:820px){.otab{border:0;background:none}.otab thead{display:none}.otab table,.otab tbody,.otab tr,.otab td{display:block;width:100%}.otab tr{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;padding:6px 4px}.otab td{border:0;padding:6px 12px}.otab td:not(:first-child)::before{content:attr(data-l);display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);font-weight:600;margin-bottom:2px}.otab td:first-child{font-size:16px}}
 .others-link{margin:32px 0 10px}
+/* AI self-reflection experiment */
+.aidisc{border:2px solid var(--permInk);background:var(--warm);border-radius:14px;padding:14px 16px;font-size:14.5px;margin:0 0 16px;color:var(--ink)}
+.aidisc strong{display:block;color:var(--permInk);font-size:15.5px;margin-bottom:4px}
+.secl{margin:10px 0 0 20px;color:var(--mute);font-size:14.5px}
+.stage h2.q{font-family:Fraunces,Georgia,serif;font-weight:400;font-size:24px;line-height:1.25;margin:8px 0 18px;outline:none}
+.dom{padding:14px 0;border-top:1px solid var(--line)}
+.dh{display:flex;justify-content:space-between;gap:10px;align-items:baseline;flex-wrap:wrap}
+.bandl{font-size:12.5px;font-weight:600;border-radius:999px;padding:2px 10px;background:var(--line)}
+.bandl em{font-weight:400;font-style:normal;opacity:.75}
+.bandl.bs{background:var(--accSoft);color:var(--acc)}.bandl.bm{background:var(--warm);color:var(--permInk)}
+.dom p{font-size:14.5px;margin-top:6px}.dom .nx a{color:var(--acc);margin-right:10px}
+.rg{font-family:Fraunces,Georgia,serif;font-weight:450;font-size:21px;margin:28px 0 4px}
+.lookbox{background:var(--accSoft);border-radius:14px;padding:14px 16px;margin:14px 0;font-size:14.5px}.lookbox h4,.supbox h4{font-family:Fraunces,serif;font-weight:500;font-size:17px;margin-bottom:4px}
+.supbox{border:2px solid var(--acc);border-radius:14px;padding:14px 16px;margin:14px 0;font-size:14.5px}
+.card.ai{border:2px dashed var(--permInk)}
+.card.ai .aiflag{display:block;font-size:12px;font-weight:650;color:var(--permInk);background:var(--warm);border-radius:8px;padding:6px 8px;margin-bottom:8px}
