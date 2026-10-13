@@ -198,3 +198,17 @@ main.lmain{flex:1;min-height:0;display:flex;flex-direction:column;max-width:1100
 .cond .card{grid-column:auto!important}
 
 @media (max-width:600px){.cond .bento{grid-template-columns:1fr!important}}
+/* others page */
+main.others{max-width:1240px}
+.others .note{margin:14px 0 22px}
+.otab{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.otab table{border-collapse:collapse;width:100%;font-size:13.5px}
+.otab th{text-align:left;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);padding:12px 10px;border-bottom:1px solid var(--line);vertical-align:bottom}
+.otab td{padding:12px 10px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--mute)}
+.otab td:first-child{color:var(--ink);min-width:150px}
+.otab tr:last-child td{border-bottom:0}
+.cond-tag{display:inline-block;margin-top:6px;font-size:11px;font-weight:600;color:var(--acc);background:var(--accSoft);border-radius:999px;padding:2px 8px}
+.otab td:first-child strong{display:block}
+.otab a{color:var(--acc)}
+@media (max-width:820px){.otab{border:0;background:none}.otab thead{display:none}.otab table,.otab tbody,.otab tr,.otab td{display:block;width:100%}.otab tr{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;padding:6px 4px}.otab td{border:0;padding:6px 12px}.otab td:not(:first-child)::before{content:attr(data-l);display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);font-weight:600;margin-bottom:2px}.otab td:first-child{font-size:16px}}
+.others-link{margin:32px 0 10px}
