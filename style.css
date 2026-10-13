@@ -185,3 +185,16 @@ main.lmain{flex:1;min-height:0;display:flex;flex-direction:column;max-width:1100
 .snd{position:absolute;top:12px;left:50%;transform:translateX(-50%);font:600 14px Inter,system-ui,sans-serif;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:8px 16px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.15)}
 .lfoot{text-align:center;padding:6px 20px calc(env(safe-area-inset-bottom) + 10px);font-size:13px;color:var(--mute)}
 @media (max-width:600px){.lmain .lt{font-size:25px}.lmain .intro{font-size:14.5px;margin-bottom:10px}.cta{margin-bottom:10px}.cta .btn.big{width:100%;text-align:center}.cta .lockn{width:100%;text-align:center}}
+
+/* tests list v3: by condition */
+.cond{margin:44px 0 0;scroll-margin-top:70px}.cond .card h3{font-size:20px}
+.condh{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px}
+.condh h2{font-family:Fraunces,Georgia,serif;font-weight:400;font-size:clamp(30px,4vw,42px);letter-spacing:-.01em}
+.condl{color:var(--mute);margin:8px 0 6px;font-size:15px}
+.grp{margin-top:22px}
+.grp .sec{margin-bottom:12px}
+.agel{font-family:Inter,system-ui,sans-serif;font-size:13px;font-weight:650;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
+.cond .bento{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))!important}
+.cond .card{grid-column:auto!important}
+
+@media (max-width:600px){.cond .bento{grid-template-columns:1fr!important}}
